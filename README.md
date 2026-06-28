@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CampusOS
 
-## Getting Started
+A modern, AI-powered University ERP platform built to streamline academic and administrative workflows through a secure, scalable, and intuitive experience.
 
-First, run the development server:
+---
+
+## Overview
+
+CampusOS is designed to centralize university operations into a single platform for students, faculty, and administrators. It provides role-based access, modern dashboards, and intelligent automation to improve productivity across the campus ecosystem.
+
+---
+
+## Core Modules
+
+- Authentication & Role-Based Access
+- Student Dashboard
+- Faculty Dashboard
+- Administrator Dashboard
+- Attendance Management
+- Timetable Management
+- Assignment Management
+- Notices & Announcements
+- Results Management
+- Document Repository
+- Request Management
+
+---
+
+## AI Features
+
+- Notice Summarization
+- Assignment Deadline Reminders
+- Attendance Insights
+- Intelligent Search
+- Productivity Assistant
+
+---
+
+## Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | Next.js 16 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| UI Components | shadcn/ui |
+| Version Control | Git & GitHub |
+
+---
+
+## Project Structure
+
+```
+CampusOS
+├── app/
+├── components/
+├── lib/
+├── public/
+├── README.md
+└── package.json
+```
+
+---
+
+## Development
+
+Clone the repository
+
+```bash
+git clone https://github.com/vanshitaparte443-cyber/CampusOS.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Version 1.0
 
-## Learn More
+- User Authentication
+- Student Portal
+- Faculty Portal
+- Admin Portal
+- Attendance
+- Timetable
+- Assignments
+- Notices
+- Results
+- Documents
 
-To learn more about Next.js, take a look at the following resources:
+### Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fee Management
+- Analytics Dashboard
+- Library Module
+- Hostel Management
+- Placement Portal
+- AI Academic Assistant
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Status
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+CampusOS is currently under active development.
